@@ -13,7 +13,7 @@
 
     <header class="container">
         <!-- navbar start  -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -29,13 +29,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#bag">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -156,7 +156,7 @@
         <!-- catagory end -->
 
         <!-- shoes section start  -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -202,7 +202,7 @@
         <!-- shoes section end -->
 
         <!-- backpack section start  -->
-        <section class="container my-5">
+        <section class="container my-5" id="bag">
             <h2>Bag</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -249,7 +249,7 @@
         <!-- backpack section end -->
 
         <!-- subscribe section start -->
-        <section style="height: 300px;"
+        <section style="height: 300px;" id="subscribe"
             class="container d-flex justify-content-center align-items-center rounded-3 bg-info">
 
             <div>
@@ -257,10 +257,10 @@
                 <p>Get updates on sales, specials and more
                 </p>
                 <form>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-warning">Subscribe</button>
                 </form>
             </div>
 
